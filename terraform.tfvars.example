@@ -1,0 +1,10 @@
+location = "westeurope"
+project  = "bestrong"
+env      = "dev"
+
+# secrets - DO NOT COMMIT real values
+sql_admin_login    = "sqladminuser"
+sql_admin_password = "12345"
+
+# image in ACR (example)
+app_image = "acrbestrongdev001.azurecr.io/backend:1.0.0"
